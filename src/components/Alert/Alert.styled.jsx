@@ -22,7 +22,7 @@
 // }
 
 import styled from "styled-components";
-import { theme } from "theme";
+import { theme } from "components/theme";
 
 export const StyledAlert = styled.p`
 	line-height: 1.5;

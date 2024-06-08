@@ -8,10 +8,10 @@ export const Layout = () => {
         <Nav>
         <Ul>
           <Li>
-            <NavLink to='/Home'>Home page</NavLink>
+            <NavLink to='/'>Home page</NavLink>
           </Li>
           <Li>
-            <NavLink to='/Cats'>Cats page</NavLink>
+            <NavLink to='/cats'>Cats page</NavLink>
           </Li>
           <Li>
             <NavLink to='/Gym'>Gym page</NavLink>

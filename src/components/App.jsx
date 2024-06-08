@@ -29,7 +29,10 @@ export const App = () => {
         <Route path="/Counter" element={<Counter/>}/>
         <Route path="/Cats" element={<CatsPage/>}/>
         <Route path="/Gym" element={<GymPage/>}/>
-        <Route path="/cats/:catId" element={<CatDitailsPage/>}/>
+        <Route path='cats/:catId' element={<CatDitailsPage/>} >
+          <Route path='description' element={<p>Опис котика</p>} />
+          <Route path='breeds_history' element={<p>Історія породи</p>} />
+        </Route>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </div>
